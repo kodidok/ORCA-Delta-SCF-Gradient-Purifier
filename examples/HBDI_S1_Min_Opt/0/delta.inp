@@ -4,5 +4,3 @@
      DeltaSCFFromGS FALSE 
 END
 *xyzfile -1 1 input.xyz
-
-            
