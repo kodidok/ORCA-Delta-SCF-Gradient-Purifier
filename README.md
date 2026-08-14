@@ -1,9 +1,10 @@
 # ORCA Delta-SCF Gradient Purifier
 
-The deltascf_wrapper.py enables geometry optimization of minima, TS and $S_{0}/S_{1}$ Minimum Energy Crossing Points (MECI) using the ${\Delta} SCF$ method with gradients corrected for spin-contamination. 
+The deltascf_wrapper.py enables geometry optimization of minima, TS and S0/S1 Minimum Energy Crossing Points (MECI) using the ${\Delta} SCF$ method with gradients corrected for spin-contamination. 
 
 The script acts as an external optimizer interface for ORCA 6.1.0, calculating corrected gradients according to the formula by Ziegler et al. (https://doi.org/10.1007/BF00551551):
-$$ {\nabla}E_{pure} =2 \nabla E_{BS} -\nabla E_{T}$$
+
+$ {\nabla}E_{pure} =2 \nabla E_{BS} -\nabla E_{T}$
 
 The script reads the files basename_EXT.extinp.tmp and basename.xyz provided by ORCA called with the `ExtOpt` option, invokes $S_1$ and $T_1$ calculations, computes purified $S_1$ gradients and feeds them back to the ORCA internal optimizer.
 
