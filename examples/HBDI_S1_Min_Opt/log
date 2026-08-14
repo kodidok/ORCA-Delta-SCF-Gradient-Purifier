@@ -3114,4 +3114,4 @@ Sum of individual times          ...      260.326 sec (=   4.339 min)
 Geometry relaxation              ...        0.094 sec (=   0.002 min)   0.0 %
 External energy and gradient     ...      260.231 sec (=   4.337 min) 100.0 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 4 minutes 23 seconds 331 msec
+TOTAL RUN TIME: 0 days 0 hours 4 minutes 23 seconds 331 msec 
