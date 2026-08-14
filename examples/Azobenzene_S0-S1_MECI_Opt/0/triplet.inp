@@ -1,0 +1,5 @@
+! UKS PBE EnGrad TightSCF cc-pvdz 
+%pal ncpus 18 end
+*xyzfile 0 3 input.xyz
+
+        

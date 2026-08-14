@@ -1,0 +1,8 @@
+! PBE EnGrad TightSCF cc-pvdz  DELTASCF UHF FRSOSCF
+%pal ncpus 18 end
+%SCF ALPHACONF 0,1 
+     DeltaSCFFromGS FALSE 
+END
+*xyzfile 0 1 input.xyz
+
+            
