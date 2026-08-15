@@ -128,7 +128,7 @@ def main():
     parser.add_argument('--aux_basis_set', '-augb', default='', help='Auxilary basis set for RI-MP2',)
     parser.add_argument('--gs_orbs_at_each_step', action = 'store_true', default=False, help='Calculate ground-state orbitals at each step of geometry optimization',)
     parser.add_argument('--do_not_purify', action = 'store_true', default=False, help='Turn off the spin purification procedure and use spin-contaminated gradients instead',)
-    parser.add_argument('--converger', type = str, help='Converging algorothm for DeltaSCF',)
+    parser.add_argument('--converger', type = str, default='', help='Converging algorothm for DeltaSCF',)
     args = parser.parse_args()
 
     if not args.conical:         
