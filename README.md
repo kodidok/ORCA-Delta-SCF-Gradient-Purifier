@@ -58,7 +58,7 @@ Associated arguments for the penalty function construction are `--alpha` and `--
 * `--functional` / `-f` : Exchange-correlation functional
 * `--aux_basis_set` : Auxilary basis set for RI-MP2
 * `--ncpus` / `-cpu` : Number of cpus allocated for SCF and ΔSCF computations, default = 12
-* `--gs_orbs_at_each_step` : Enables ground-state UKS orbitals recalculation at each step of geometry optimization to form the input non-Aufbau configureation for ΔSCF, default = False
+* `--gs_orbs_at_each_step` : Enables ground-state UKS orbitals recalculation at each step of geometry optimization to form the input non-Aufbau configuration for ΔSCF, default = False
 * `--converger` : Converging algorothm for ΔSCF. See available algorithms in ORCA manual
 * `--do_not_purify` : Turns off the spin purification procedure. For MECI optimization using spin-contaminated gradients, default = False
 
